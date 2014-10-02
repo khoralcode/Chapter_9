@@ -1,11 +1,12 @@
 //
 //  main.m
-//  Chapter_9
+//  testing
 //
-//  Created by Alex on 9/23/14.
+//  Created by Alex on 9/25/14.
 //  Copyright (c) 2014 ObjCBook. All rights reserved.
 //
 
+// Illustrate Dynamic Typing and Binding
 #import "Fraction.h"
 #import "Complex.h"
 #import "Rectangle.h"
@@ -14,7 +15,7 @@
 int main (int argc, char * argv[]) {
     
     @autoreleasepool {
-        
+       
         id result;
         id dataValue2;
         id dataValue1;
@@ -24,7 +25,7 @@ int main (int argc, char * argv[]) {
         Complex *c1 = [[Complex alloc] init];
         XYPoint *x1 = [[XYPoint alloc] init];
         id c2 = [[Complex alloc] init];
-        
+      
         dataValue1 = f1;
         dataValue2 = c1;
         dataValue3 = c2;
@@ -45,10 +46,10 @@ int main (int argc, char * argv[]) {
         [c2 setReal: 14.0 andImaginary: 4.5];
         [x1 setX:12 andY: 16];
         
-        dataValue = x1;
+           dataValue = x1;
         [dataValue print];
         // now dataValue gets a complex number
-        
+       
         
         [dataValue print];
         

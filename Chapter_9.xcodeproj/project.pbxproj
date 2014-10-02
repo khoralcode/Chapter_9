@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		520497CC19D2288200C81A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520497CB19D2288200C81A28 /* main.m */; };
+		52F3BD3F19D5E792008EA352 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BD3E19D5E792008EA352 /* Complex.m */; };
+		52F3BD4419D5E7A3008EA352 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BD4119D5E7A3008EA352 /* Fraction.m */; };
+		52F3BD4519D5E7A3008EA352 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BD4319D5E7A3008EA352 /* XYPoint.m */; };
+		52F3BD4A19D5E862008EA352 /* GraphicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BD4719D5E862008EA352 /* GraphicObject.m */; };
+		52F3BD4B19D5E862008EA352 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F3BD4919D5E862008EA352 /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		520497C819D2288200C81A28 /* Chapter_9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chapter_9; sourceTree = BUILT_PRODUCTS_DIR; };
 		520497CB19D2288200C81A28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52F3BD3D19D5E792008EA352 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		52F3BD3E19D5E792008EA352 /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+		52F3BD4019D5E7A3008EA352 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		52F3BD4119D5E7A3008EA352 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		52F3BD4219D5E7A3008EA352 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		52F3BD4319D5E7A3008EA352 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
+		52F3BD4619D5E852008EA352 /* GraphicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicObject.h; sourceTree = "<group>"; };
+		52F3BD4719D5E862008EA352 /* GraphicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicObject.m; sourceTree = "<group>"; };
+		52F3BD4819D5E862008EA352 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		52F3BD4919D5E862008EA352 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,16 @@
 		520497BF19D2288200C81A28 = {
 			isa = PBXGroup;
 			children = (
+				52F3BD4719D5E862008EA352 /* GraphicObject.m */,
+				52F3BD4819D5E862008EA352 /* Rectangle.h */,
+				52F3BD4919D5E862008EA352 /* Rectangle.m */,
+				52F3BD4619D5E852008EA352 /* GraphicObject.h */,
+				52F3BD4019D5E7A3008EA352 /* Fraction.h */,
+				52F3BD4119D5E7A3008EA352 /* Fraction.m */,
+				52F3BD4219D5E7A3008EA352 /* XYPoint.h */,
+				52F3BD4319D5E7A3008EA352 /* XYPoint.m */,
+				52F3BD3D19D5E792008EA352 /* Complex.h */,
+				52F3BD3E19D5E792008EA352 /* Complex.m */,
 				520497CA19D2288200C81A28 /* Chapter_9 */,
 				520497C919D2288200C81A28 /* Products */,
 			);
@@ -118,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F3BD3F19D5E792008EA352 /* Complex.m in Sources */,
 				520497CC19D2288200C81A28 /* main.m in Sources */,
+				52F3BD4A19D5E862008EA352 /* GraphicObject.m in Sources */,
+				52F3BD4419D5E7A3008EA352 /* Fraction.m in Sources */,
+				52F3BD4519D5E7A3008EA352 /* XYPoint.m in Sources */,
+				52F3BD4B19D5E862008EA352 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +262,7 @@
 				520497D119D2288200C81A28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
